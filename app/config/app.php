@@ -113,7 +113,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+		'Codenamegary\L4sacs\L4sacsServiceProvider',
+        'Codenamegary\L4layouts\L4layoutsServiceProvider',
+        'Atticmedia\Anvard\AnvardServiceProvider',
 	),
 
 	/*
