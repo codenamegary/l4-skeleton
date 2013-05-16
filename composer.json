@@ -2,8 +2,8 @@
 	"require": {
 		"laravel/framework": "4.0.*",
 		"atticmedia/anvard": "dev-master",
-		"codenamegary/l4sacs": "dev-master",
-		"codenamegary/l4layouts": "dev-dev"
+		"codenamegary/l4sacs": "*",
+		"codenamegary/l4layouts": "*"
 	},
 	"autoload": {
 		"classmap": [
