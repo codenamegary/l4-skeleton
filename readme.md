@@ -10,9 +10,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 - Anvard (HybridAuth) for social auth
 - [codenamegary/l4layouts](https://bitbucket.org/codenamegary/l4layouts)
- - Zurb Foundation 4.1
- - Twitter Bootstrap 2.3.1
- - Font Awesome 3.1.1
+-- Zurb Foundation 4.1
+-- Twitter Bootstrap 2.3.1
+-- Font Awesome 3.1.1
 - [codenamegary/l4sacs](https://bitbucket.org/codenamegary/l4sacs)
  - Simple asset collection / containers for L4, similar to assets in L3
 - PagodaBox Boxfile
