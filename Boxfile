@@ -22,6 +22,7 @@ web1:
     - zip
   before_deploy:
     - "php artisan migrate"
+    - "php artisan migrate --package='atticmedia/anvard'"
   after_deploy:
     - "rm -f app/storage/cache/*"
     - "rm -f app/storage/views/*"

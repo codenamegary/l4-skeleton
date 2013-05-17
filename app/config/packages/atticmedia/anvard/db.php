@@ -24,8 +24,9 @@ return array(
     /* Maps Profile fields to User fields, for the case where we are creating a new User and want some internal User model values copied in */
     'profiletousermap' => array(
         'email' => 'email',
-        // 'firstName' => 'forename',
-        // 'lastName' => 'surname',
+        'firstName' => 'firstname',
+        'lastName' => 'lastname',
+        'displayName' => 'displayname',
     ),
 
     /* Rules to override User saving validation (e.g. with Ardent models), for example the password.  Set to NULL to use the default validation rules. */
@@ -35,9 +36,8 @@ return array(
 
     /* Specific things to set on new (unsaved) user models, provide a callable if you wish */
     'uservalues' => array(
-        // 'role_id' => 3,
-        // 'username' => function($user, $adapter_profile) {
-        //     return $adapter_profile->email;
-        // }
+        /*'username' => function($user, $adapter_profile) {
+             return $adapter_profile->email;
+        }*/
     ),
 );
