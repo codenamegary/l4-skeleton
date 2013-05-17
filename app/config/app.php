@@ -116,8 +116,6 @@ return array(
 		'Codenamegary\L4sacs\L4sacsServiceProvider',
         'Codenamegary\L4layouts\L4layoutsServiceProvider',
         'Atticmedia\Anvard\AnvardServiceProvider',
-        'Way\Console\GuardLaravelServiceProvider',
-
 	),
 
 	/*
