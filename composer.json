@@ -3,7 +3,13 @@
 		"laravel/framework": "4.0.*",
 		"atticmedia/anvard": "dev-master",
 		"codenamegary/l4sacs": "*",
-		"codenamegary/l4layouts": "*"
+		"codenamegary/l4layouts": "*",
+        "centralapps/mail-postmarkapp": "dev-master",
+        "hashids/hashids": "*"
+	},
+	"require-dev": {
+    	"way/guard-laravel": "dev-master",
+		"phpunit/phpunit": "3.7.20"
 	},
 	"autoload": {
 		"classmap": [

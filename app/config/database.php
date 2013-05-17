@@ -52,16 +52,17 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
-		),
+        'mysql' => array(
+            'driver'    => 'mysql',
+            'host'     => isset( $_SERVER["DB1_HOST"] ) ? $_SERVER["DB1_HOST"] : '',
+            'database' => isset( $_SERVER["DB1_NAME"] ) ? $_SERVER["DB1_NAME"] : '',
+            'username' => isset( $_SERVER["DB1_USER"] ) ? $_SERVER["DB1_USER"] : '',
+            'password' => isset( $_SERVER["DB1_PASS"] ) ? $_SERVER["DB1_PASS"] : '',
+            'port'     => isset( $_SERVER["DB1_PORT"] ) ? $_SERVER["DB1_PORT"] : '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
@@ -110,15 +111,12 @@ return array(
 	*/
 
 	'redis' => array(
-
 		'cluster' => true,
-
 		'default' => array(
-			'host'     => '127.0.0.1',
+			'host'     => 'tunnel.pagodabox.com',
 			'port'     => 6379,
 			'database' => 0,
 		),
-
 	),
 
 );
