@@ -1,6 +1,6 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*",
+		"laravel/framework": "4.0.*@dev",
 		"atticmedia/anvard": "dev-master",
 		"codenamegary/l4sacs": "*",
 		"codenamegary/l4layouts": "*",
