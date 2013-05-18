@@ -23,6 +23,7 @@ web1:
   before_deploy:
     - "php artisan migrate"
     - "php artisan migrate --package='atticmedia/anvard'"
+    - "php artisan basset:build"
   after_deploy:
     - "rm -f app/storage/cache/*"
     - "rm -f app/storage/views/*"
