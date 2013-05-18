@@ -75,7 +75,7 @@ return array(
     |
     */
 
-    'production' => array('production', 'prod'),
+    'production' => array('production', 'prod', 'local'),
 
     /*
     |--------------------------------------------------------------------------
