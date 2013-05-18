@@ -10,6 +10,7 @@ web1:
     - /app/storage/meta
     - /app/storage/sessions
     - /app/storage/views
+    - /public/builds
   document_root: /public
   php_version: 5.3.23
   php_extensions:
