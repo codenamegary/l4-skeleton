@@ -113,9 +113,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Codenamegary\L4sacs\L4sacsServiceProvider',
-        'Codenamegary\L4layouts\L4layoutsServiceProvider',
         'Atticmedia\Anvard\AnvardServiceProvider',
+        'Codenamegary\L4layouts\L4layoutsServiceProvider',
+        'Basset\BassetServiceProvider',
 	),
 
 	/*
@@ -180,7 +180,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
+		'Basset'          => 'Basset\Facade',
 	),
 
 );

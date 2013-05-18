@@ -1,10 +1,10 @@
 <?php
 return array(
     /* The name of the User model */
-    'usermodel' => 'User',
+    'usermodel' => 'Atticmedia\\Anvard\\Models\\User',
 
     /* The name of the Profile model */
-    'profilemodel' => 'Profile',
+    'profilemodel' => 'Atticmedia\\Anvard\\Models\\Profile',
 
     /* The hasMany name for the profiles of a given user */
     'userprofiles' => 'profiles',
@@ -24,9 +24,8 @@ return array(
     /* Maps Profile fields to User fields, for the case where we are creating a new User and want some internal User model values copied in */
     'profiletousermap' => array(
         'email' => 'email',
-        'firstName' => 'firstname',
-        'lastName' => 'lastname',
-        'displayName' => 'displayname',
+        // 'firstName' => 'forename',
+        // 'lastName' => 'surname',
     ),
 
     /* Rules to override User saving validation (e.g. with Ardent models), for example the password.  Set to NULL to use the default validation rules. */
@@ -36,8 +35,9 @@ return array(
 
     /* Specific things to set on new (unsaved) user models, provide a callable if you wish */
     'uservalues' => array(
-        /*'username' => function($user, $adapter_profile) {
-             return $adapter_profile->email;
-        }*/
+        // 'role_id' => 3,
+        // 'username' => function($user, $adapter_profile) {
+        //     return $adapter_profile->email;
+        // }
     ),
 );

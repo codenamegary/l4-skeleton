@@ -4,6 +4,17 @@
 
 [MIT license](http://opensource.org/licenses/MIT)
 
+### ChangeLog
+
+- **Version 0.2**
+	- Moved to [Basset](http://jasonlewis.me/code/basset/4.0) for Asset Management
+	- Added additional assets from l4layouts
+	- Got rid of l4sacs requirements
+	- Upgraded Bootstrap to 2.3.2
+	- Got rid of laravel guard requirement
+- **Version 0.1**
+	- Initial release
+
 ### Includes
 
 - Laravel (Latest and Greatest)
@@ -11,9 +22,9 @@
 - Anvard (HybridAuth) for social auth
 - [codenamegary/l4layouts](https://bitbucket.org/codenamegary/l4layouts)
 	- Zurb Foundation 4.1
-	- Twitter Bootstrap 2.3.1
+	- Twitter Bootstrap 2.3.2
 	- Font Awesome 3.1.1
-- [codenamegary/l4sacs](https://bitbucket.org/codenamegary/l4sacs)
+- [jasonlewis/basset](http://jasonlewis.me/code/basset/4.0)
 	- Simple asset collection / containers for L4, similar to assets in L3
 - PagodaBox Boxfile
 	- Configured for PHP 5.3.23 with mcrypt, apc and several other extensions

@@ -1,6 +1,6 @@
 <?php
 return array(
-    'index' => 'connect',
-    'login' => 'connect/{provider}',
-    'endpoint' => 'connect/endpoint',
+    'index' => 'anvard',
+    'login' => 'anvard/login/{provider}',
+    'endpoint' => 'anvard/endpoint',
 );
