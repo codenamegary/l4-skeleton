@@ -1,7 +1,7 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*@dev",
-		"atticmedia/anvard": "dev-master",
+		"laravel/framework": "4.0.6",
+		"hybridauth/hybridauth": "3.0.0.*@dev",
         "centralapps/mail-postmarkapp": "dev-master",
         "hashids/hashids": "*",
 		"jasonlewis/basset": "dev-master",

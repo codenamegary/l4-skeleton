@@ -113,7 +113,6 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-        'Atticmedia\Anvard\AnvardServiceProvider',
         'Codenamegary\L4layouts\L4layoutsServiceProvider',
         'Basset\BassetServiceProvider',
 	),
