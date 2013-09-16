@@ -21,6 +21,7 @@ web1:
     - curl
     - zip
     - xcache
+    - redis
   before_deploy:
     - "php artisan migrate"
     - "php artisan basset:build"
