@@ -111,11 +111,13 @@ return array(
 	*/
 
 	'redis' => array(
-		'cluster' => false,
+		'cluster' => true,
 		'default' => array(
 			'host'     => 'tunnel.pagodabox.com',
 			'port'     => 6379,
 			'database' => 0,
+			'connection_timeout' => 10,
+			'read_write_timeout' => -1,
 		),
 	),
 
