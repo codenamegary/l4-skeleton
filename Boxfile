@@ -12,7 +12,7 @@ web1:
     - /app/storage/views
     - /public/builds
   document_root: /public
-  php_version: 5.4
+  php_version: 5.4.14
   php_extensions:
     - mbstring
     - pdo_mysql
@@ -23,7 +23,6 @@ web1:
     - eaccelerator
   before_deploy:
     - "php artisan migrate"
-    - "php artisan migrate --package='atticmedia/anvard'"
     - "php artisan basset:build"
   after_deploy:
     - "rm -f app/storage/cache/*"
