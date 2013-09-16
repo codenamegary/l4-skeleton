@@ -28,6 +28,7 @@ web1:
   after_deploy:
     - "rm -f app/storage/cache/*"
     - "rm -f app/storage/views/*"
+    - "php artisan cache:clear"
   after_build:
     - "chmod +x deploy.sh"
     - "./deploy.sh"
