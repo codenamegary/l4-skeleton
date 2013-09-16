@@ -42,6 +42,10 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
 	- Default layouts for each
 - [jasonlewis/basset](http://jasonlewis.me/code/basset/4.0)
 	- Asset collections and compilation, minification, etc.
+- [ivanakimov/hashids.php](https://github.com/ivanakimov/hashids.php)
+    - The easiest and most efficient little hash utility that I've encountered so far
+    - Makes 2 way hashes from an integer or array of integers, great for things like short urls
+    - [Moar Docs](http://www.hashids.org/php/)
 - PagodaBox Boxfile
 	- Configured for PHP 5.4.14 with mcrypt, xcache and several other extensions
 	- Redis cache for session and cache storage
