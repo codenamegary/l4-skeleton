@@ -13,6 +13,7 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
     - Added new demo views to l4layouts package
     - Laravel 4.0.6
     - Upgraded PB boxfile to PHP version 5.4 and xcache instead of APC (known bugs with APC on PHP 5.4 on PagodaBox)
+    - Added juy/profiler [drool](https://github.com/juy/profiler)
 - **Version 0.2**
 	- Moved to [Basset](http://jasonlewis.me/code/basset/4.0) for Asset Management
 	- Added additional assets from l4layouts
@@ -24,9 +25,16 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
 
 ### Includes
 
-- Laravel (4.0.6)
-	- [Official Documentation](http://four.laravel.com) (Under Active Development)
+- [juy/profiler](https://github.com/juy/profiler)
+    - Basically the L3 profiler design but upgraded with more info
+- [centralapps/mail-postmarkapp](https://github.com/CentralApps/Mail-PostmarkApp)
+    - Works with http://postmarkapp.com
+    - Super cheap and easy transactional email API
+    - Supports inbound and outbound
+- [Laravel](https://github.com/laravel/laravel)
+	- [Official Documentation](http://www.laravel.com/docs)
 - [hybridauth/hybridauth](http://hybridauth.sourceforge.net/) 3.0.0.x-dev branch for social auth
+    - Also supports APIs for various functions beyond authentication
 - [codenamegary/l4layouts 0.1.1](https://bitbucket.org/codenamegary/l4layouts)
 	- Zurb Foundation 4.1, 4.3.2
 	- Twitter Bootstrap 2.3.2, 3.0.0
@@ -42,7 +50,6 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
  	- Composer.json configured and ready with phpunit for dev environment
  	- deploy.sh script which automates wiping and re-composing (wipe vendor, reinstall / update composer)
  	- deploy.sh uses --prefer-source so NO MORE 403 limit exceeded!!
-
 
 ### License
 
