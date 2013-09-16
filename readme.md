@@ -1,14 +1,18 @@
-## Laravel 4.x Skeleton
+## PagodaBox-Ready Laravel 4.x Skeleton
 
-### License
+[Launch Now](https://pagodabox.com/cafe/powrit/l4-skeleton)
 
-[MIT license](http://opensource.org/licenses/MIT)
+### Twitter Bootstrap and Zurb Foundation Layouts
+
+Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::foundation.blank'. See the default demo page for more details.
+
+[Live Demo](http://l4-skeleton.gopagoda.com)
 
 ### ChangeLog
 - **Version 0.3**
     - Added new demo views to l4layouts package
     - Laravel 4.0.6
-    - Upgraded PB boxfile to PHP version 5.4 and eaccelerator instead of APC (known bugs with APC on PHP 5.4 on PagodaBox)
+    - Upgraded PB boxfile to PHP version 5.4 and xcache instead of APC (known bugs with APC on PHP 5.4 on PagodaBox)
 - **Version 0.2**
 	- Moved to [Basset](http://jasonlewis.me/code/basset/4.0) for Asset Management
 	- Added additional assets from l4layouts
@@ -38,3 +42,10 @@
  	- Composer.json configured and ready with phpunit for dev environment
  	- deploy.sh script which automates wiping and re-composing (wipe vendor, reinstall / update composer)
  	- deploy.sh uses --prefer-source so NO MORE 403 limit exceeded!!
+
+
+### License
+
+Packages included are subject to their own license terms.
+
+This package - [MIT license](http://opensource.org/licenses/MIT)
