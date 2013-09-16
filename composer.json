@@ -5,7 +5,7 @@
         "centralapps/mail-postmarkapp": "dev-master",
         "hashids/hashids": "*",
 		"jasonlewis/basset": "dev-master",
-		"codenamegary/l4layouts": "dev-master",
+		"codenamegary/l4layouts": "0.1.1",
 		"juy/profiler" : "dev-master"
 	},
 	"require-dev": {
