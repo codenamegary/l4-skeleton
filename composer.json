@@ -1,4 +1,16 @@
 {
+{
+    "name": "codenamegary/l4-skeleton",
+    "description": "A Laravel 4 skeleton ready for PagodaBox pre-configured with a collection of front-end packages and layouts including Twitter Bootstrap, Zurb Foundation and Font-Awesome.",
+    "keywords": ["laravel","l4"],
+    "authors": [
+        {
+            "name": "Gary Saunders",
+            "email": "gary@powrit.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.6",
 		"hybridauth/hybridauth": "3.0.0.*@dev",
