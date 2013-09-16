@@ -115,6 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Basset\BassetServiceProvider',
         'Codenamegary\L4layouts\L4layoutsServiceProvider',
+        'Juy\Profiler\Providers\ProfilerServiceProvider',
 	),
 
 	/*
@@ -180,6 +181,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Basset'          => 'Basset\Facade',
+        'Profiler'      => 'Juy\Profiler\Facades\Profiler',
 	),
 
 );
