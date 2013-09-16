@@ -12,15 +12,15 @@ web1:
     - /app/storage/views
     - /public/builds
   document_root: /public
-  php_version: 5.3.23
+  php_version: 5.4
   php_extensions:
-    - apc
     - mbstring
     - pdo_mysql
     - mcrypt
     - gd
     - curl
     - zip
+    - eaccelerator
   before_deploy:
     - "php artisan migrate"
     - "php artisan migrate --package='atticmedia/anvard'"
