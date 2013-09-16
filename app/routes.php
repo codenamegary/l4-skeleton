@@ -11,15 +11,6 @@
 |
 */
 
-Route::get('/{platform?}/{version?}', array(
-    'as' => 'version demo',
-    function($platform = 'bootstrap', $version = null)
-    {
-        $settingsKey = 'l4layouts::settings.'.$platform;
-        if(Config::get($settingsKey.'.active', false) === false) return Response::make('It appears that the platform ' . $platform . ' has not been implemented yet.');
-        if($version !== null and array_search($version, Config::get($settingsKey.'.versions',array())) === false) return Response::make('It appears that version ' . $version . ' has not been implemented yet.');
-        if($version === null) $version = Config::get($settingsKey.'.active','2.3.2');
-        Config::set($settingsKey.'.active', $version);
-        return View::make('hello')->with('platform', $platform);
-    }
-));
+Route::get('/{platform?}/{version?}', function($platform = 'bootstrap', $version = null){
+    return Redirect::route('l4layouts::demo',array('platform' => $platform, 'version' => $version));
+});
