@@ -31,7 +31,7 @@
 - [jasonlewis/basset](http://jasonlewis.me/code/basset/4.0)
 	- Asset collections and compilation, minification, etc.
 - PagodaBox Boxfile
-	- Configured for PHP 5.4.14 with mcrypt, eaccelerator and several other extensions
+	- Configured for PHP 5.4.14 with mcrypt, xcache and several other extensions
 	- Redis cache for session and cache storage
  	- L4 configuration to match database environment variables and leverage redis
 - Composer
