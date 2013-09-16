@@ -20,7 +20,7 @@ web1:
     - gd
     - curl
     - zip
-    - eaccelerator
+    - xcache
   before_deploy:
     - "php artisan migrate"
     - "php artisan basset:build"
