@@ -14,6 +14,7 @@ web1:
   document_root: /public
   php_version: 5.4.14
   php_extensions:
+  	- geoip
     - mbstring
     - pdo_mysql
     - mcrypt
@@ -22,6 +23,7 @@ web1:
     - zip
     - xcache
     - redis
+    - imagick
   before_deploy:
     - "php artisan migrate"
     - "php artisan basset:build"
@@ -34,5 +36,5 @@ web1:
     - "./deploy.sh"
     
 cache1:
-  name: sessions
+  name: l4-skeleton
   type: redis
