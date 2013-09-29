@@ -9,6 +9,8 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
 [Live Demo](http://l4-skeleton.gopagoda.com)
 
 ### ChangeLog
+- **Version 0.4**
+    - [juy/profiler](https://github.com/juy/profiler) has been abandoned, ditching in favour of [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
 - **Version 0.3**
     - Added new demo views to l4layouts package
     - Laravel 4.0.6
