@@ -27,14 +27,14 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
 
 ### Includes
 
-- [juy/profiler](https://github.com/juy/profiler)
-    - Basically the L3 profiler design but upgraded with more info
+- [Laravel](https://github.com/laravel/laravel)
+	- [Official Documentation](http://www.laravel.com/docs)
+- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
+    - A wicked sweet profiler that includes standard memory, request and environment detail as well as Laravel specific route, logging and other useful debugging data
 - [centralapps/mail-postmarkapp](https://github.com/CentralApps/Mail-PostmarkApp)
     - Works with http://postmarkapp.com
     - Super cheap and easy transactional email API
     - Supports inbound and outbound
-- [Laravel](https://github.com/laravel/laravel)
-	- [Official Documentation](http://www.laravel.com/docs)
 - [hybridauth/hybridauth](http://hybridauth.sourceforge.net/) 3.0.0.x-dev branch for social auth
     - Also supports APIs for various functions beyond authentication
 - [codenamegary/l4layouts 0.1.1](https://bitbucket.org/codenamegary/l4layouts)
