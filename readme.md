@@ -5,10 +5,10 @@
 #### Screenshots
 
 ##### Bootstrap 3.0.0 - Default Template
-![](screenshots/boostrap-3.0.0.png?raw=true)
+![](https://bitbucket.org/codenamegary/l4-skeleton/raw/03d8c232b8d275c56532a1d4687e5d196585e733/screenshots/bootstrap-3.0.0.png?raw=true)
 
 ##### Foundation 4.3.1 - Default Template
-![](screenshots/foundation-4.3.1.png?raw=true)
+![](https://bitbucket.org/codenamegary/l4-skeleton/raw/03d8c232b8d275c56532a1d4687e5d196585e733/screenshots/foundation-4.3.1.png?raw=true)
 
 ### Twitter Bootstrap and Zurb Foundation Layouts
 
