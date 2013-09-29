@@ -1,4 +1,4 @@
-## PagodaBox-Ready Laravel 4.x Skeleton
+## PagodaBox-Ready Laravel 4.x Skeleton version 0.4
 
 [Launch Now](https://pagodabox.com/cafe/powrit/l4-skeleton)
 
