@@ -1,22 +1,25 @@
-## PagodaBox-Ready Laravel 4.x Skeleton version 0.4
+# PagodaBox-Ready Laravel 4.x Skeleton version 0.4
 
+[Screenshots](#markdown-header-screenshots) - [Change Log](#markdown-header-change-log) - [What's Included](#markdown-header-includes) - [License (MIT)](#markdown-header-license)
+
+![](logo?raw=true)
 [Launch Now](https://pagodabox.com/cafe/powrit/l4-skeleton)
 
-#### Screenshots
+## Screenshots
 
-##### Bootstrap 3.0.0 - Default Template
+### Bootstrap 3.0.0 - Default Template
 ![](https://bitbucket.org/codenamegary/l4-skeleton/raw/03d8c232b8d275c56532a1d4687e5d196585e733/screenshots/bootstrap-3.0.0.png?raw=true)
 
-##### Foundation 4.3.1 - Default Template
+### Foundation 4.3.1 - Default Template
 ![](https://bitbucket.org/codenamegary/l4-skeleton/raw/03d8c232b8d275c56532a1d4687e5d196585e733/screenshots/foundation-4.3.1.png?raw=true)
 
-### Twitter Bootstrap and Zurb Foundation Layouts
+## Twitter Bootstrap and Zurb Foundation Layouts
 
 Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::foundation.blank'. See the default demo page for more details.
 
 [Live Demo](http://l4-skeleton.gopagoda.com)
 
-### ChangeLog
+## Change Log
 - **Version 0.4**
     - [juy/profiler](https://github.com/juy/profiler) has been abandoned, ditching in favour of [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
 - **Version 0.3**
@@ -33,7 +36,7 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
 - **Version 0.1**
 	- Initial release
 
-### Includes
+## Includes
 
 - [Laravel](https://github.com/laravel/laravel)
 	- [Official Documentation](http://www.laravel.com/docs)
@@ -65,7 +68,7 @@ Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::
  	- deploy.sh script which automates wiping and re-composing (wipe vendor, reinstall / update composer)
  	- deploy.sh uses --prefer-source so NO MORE 403 limit exceeded!!
 
-### License
+## License
 
 Packages included are subject to their own license terms.
 
