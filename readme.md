@@ -2,7 +2,7 @@
 
 [**Click here to Launch Now on PagodaBox**](https://pagodabox.com/q/15n/go)
 
-[Screenshots](#markdown-header-screenshots) - [Change Log](#markdown-header-change-log) - [What's Included](#markdown-header-includes) - [License (MIT)](#markdown-header-license)
+[Screenshots](#screenshots) - [Change Log](#change-log) - [What's Included](#includes) - [License (MIT)](#license)
 
 ## Screenshots
 
