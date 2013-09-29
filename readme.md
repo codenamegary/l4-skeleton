@@ -2,6 +2,14 @@
 
 [Launch Now](https://pagodabox.com/cafe/powrit/l4-skeleton)
 
+#### Screenshots
+
+##### Bootstrap 3.0.0 - Default Template
+![](screenshots/boostrap-3.0.0.png?raw=true)
+
+##### Foundation 4.3.1 - Default Template
+![](screenshots/foundation-4.3.1.png?raw=true)
+
 ### Twitter Bootstrap and Zurb Foundation Layouts
 
 Just create a new view that extends 'l4layouts::bootstrap.blank' or 'l4layouts::foundation.blank'. See the default demo page for more details.
