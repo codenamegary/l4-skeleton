@@ -1,6 +1,6 @@
 # PagodaBox-Ready Laravel 4.x Skeleton version 0.4
 
-[**Click here to Launch Now on PagodaBox**](https://pagodabox.com/cafe/powrit/l4-skeleton)
+[**Click here to Launch Now on PagodaBox**](https://pagodabox.com/q/15n/go)
 
 [Screenshots](#markdown-header-screenshots) - [Change Log](#markdown-header-change-log) - [What's Included](#markdown-header-includes) - [License (MIT)](#markdown-header-license)
 
